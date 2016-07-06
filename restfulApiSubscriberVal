@@ -1,13 +1,13 @@
-/*
+/***************************************
 Here we take advantage of $http 
-that returns  a 
-succes//failure($promise)
+that returns  a succes//failure($promise)
 a prototype to obtain webpage 
-information ANY
-var defined  and does 
-a CRUD to store
-Restful API retrival and 
+information ANY var defined  and does 
+a CRUD to store Restful API retrival and 
 CRUD operations
+
+Distribution is prohibited.
+*****************************************
 */
 
                          angular.module("mainModule", ["ngResource"])
