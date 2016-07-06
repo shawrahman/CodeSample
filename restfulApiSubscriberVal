@@ -117,7 +117,7 @@ Prototype.
                                // to use it later in the handler function.
                                var thisInst = this;
 
-                               // Function is a Fallback to the constructor-level
+                               // Function is a Callback to the constructor-level
                                // "save" method
                                // because the instance-level "$store" method
                                // doesn't let me pass the (x_)address as raw POST data
