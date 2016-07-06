@@ -1,4 +1,4 @@
-/***************************************
+/*******************************************
 Here we take advantage of $http 
 that returns  a succes//failure($promise)
 a prototype to obtain webpage 
@@ -21,7 +21,8 @@ Aerovition Digital Inc.,
 An Aerovition Company
 Date 7/5/2016
 Ver.0.001
-*****************************************
+AngularJs, is impelemented under MIT lisence.
+*********************************************
 */
 
                          angular.module("mainModule", ["ngResource"])
