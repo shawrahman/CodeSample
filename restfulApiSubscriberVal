@@ -165,7 +165,7 @@ https://en.wikipedia.org/wiki/Category:Software_using_the_MIT_license
                              };
 
 /*
-creates a session id
+creates a session id -login controller
 */
 app.controller("LoginController", ['$http', '$cookies', function($http, $cookies){
     this.credentials = {};
