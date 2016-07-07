@@ -164,3 +164,28 @@ https://en.wikipedia.org/wiki/Category:Software_using_the_MIT_license
                                  });
                              };
 
+/*
+creates a session id
+*/
+app.controller("LoginController", ['$http', '$cookies', function($http, $cookies){
+    this.credentials = {};
+    this.http = $http;
+
+    this.login = function() {
+
+        console.log(this.credentials);
+        var authdata = btoa(this.credentials.username + ':' + this.credentials.password);
+        $http.defaults.headers.common['Authorization'] = 'Basic ' + authdata;
+
+        console.log($http);
+        var res = $http.post("http://API_NAME/library");
+        res.success(function(data, status, header){
+            alert("Successfull func");
+            console.log($cookies.get('JSESSIONID'));
+        });
+        res.error(function(data, status, headers, config) {
+            console.log('Error Log');
+        });
+    }
+}]);
+//Set-Cookie:JSESSIONID=azekazEXAMPLErezrzez; Path=/; HttpOnly
