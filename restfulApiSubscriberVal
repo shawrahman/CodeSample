@@ -33,7 +33,7 @@ https://en.wikipedia.org/wiki/Category:Software_using_the_MIT_license
                              // interact with the RESTful API of the server.
                              var resource = $resource("Subscriber/:operation/:userid",
                                {
-                                 userid: x934356792420x  //alphanumeric token
+                                 userid: x934356792420x0 + new Date(1970,0,1);  //alphanumeric token
                                },
                                {
                                  // A method to update the subscriber address
