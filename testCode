@@ -1,0 +1,113 @@
+/*
+TestBed
+
+Modified by :
+
+Aerovition Digital Inc.
+,An Aerovition Company
+Copyright 2016
+Date: 7/8/2016
+*/
+
+var angularApp = angular.module('ManagerApp', []);
+angularApp.controller('ManagerCtrl', ['$scope', function ($scope) {
+
+$scope.customParams = {};
+
+$scope.updateCustomRequest = function (data, type, res) {
+    $scope.customParams.data = data;
+    $scope.customParams.type = type;
+    $scope.customParams.res = res;
+    $scope.sampletext = "input text: " + data;
+};
+
+
+
+}]);
+
+function ajaxResultPost(data, type, res) {
+    var scope = angular.element(document.getElementById("MainWrap")).scope();
+    scope.$apply(function () {
+    scope.updateCustomRequest(data, type, res);
+    });
+}
+/*
+html
+*/
+
+<div ng-cloak ng-app="ManagerApp">
+    <div id="MainWrap" class="container" ng-controller="ManagerCtrl">
+       <span class="label label-info label-ext">Exposing Controller Function outside the module via onClick function call</span>
+       <button onClick='ajaxResultPost("Update:Name:With:JOHN","accept",true);'>click me</button>
+       <br/> <span class="label label-warning label-ext" ng-bind="customParams.data"></span>
+       <br/> <span class="label label-warning label-ext" ng-bind="customParams.type"></span>
+       <br/> <span class="label label-warning label-ext" ng-bind="customParams.res"></span>
+       <br/>
+       <input type="text" ng-model="sampletext" size="60">
+       <br/>
+    </div>
+</div>
+/*
+call function within same controller
+*/
+'use strict';
+angular.module('customer').controller('Controller', ['$scope', '$state', 'Sservice',
+  function($scope, $state, Sservice) {
+
+    var that = this;
+
+    (function getDetails() {
+        //IMPLEMENTATION
+    }());
+
+    this.function2 = function function2 (id){
+        //implementation
+      getDetails(); // says undefined
+    };
+  }
+]);
+/*
+same controller
+*/
+.controller('SampleController',function($scope){
+$scope.funcA = function(){
+   $scope.funcB();//scope level function
+   funcC(); //non scope level function``
+}
+$scope.funcB = function(){
+}
+var funcC = function(){
+}
+});
+/*
+'use strict';
+angular.module('customer').controller('Controller', ['$scope', '$state', 'Sservice',
+      function($scope, $state, Sservice) {
+
+        function getDetails() {
+            //IMPLEMENTATION
+        };
+
+        function function2 (id){
+            //implementation
+          getDetails(); // says undefined
+        };
+      }
+]);
+/*
+'use strict';
+angular.module('customer').controller('Controller', ['$scope', '$state', 'Sservice',
+  function($scope, $state, Sservice) {
+
+    function getDetails() {
+        //IMPLEMENTATION
+    }
+
+    $scope.function2 = function(id) {
+        //implementation
+        getDetails();
+    };
+  }
+]);
+/*
+
