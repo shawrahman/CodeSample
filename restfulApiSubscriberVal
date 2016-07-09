@@ -2,7 +2,7 @@
 Here we take advantage of $http 
 that returns  a succes//failure($promise)
 a prototype to obtain webpage 
-information ANY var defined  and does 
+information for ANY var defined  and does 
 a CRUD to store Restful API retrival and 
 CRUD operations
 
