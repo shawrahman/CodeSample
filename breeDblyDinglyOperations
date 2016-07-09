@@ -14,7 +14,7 @@ var test_element;
 var find_sample = function (test_element){
     try{
         a_sed_function1 : function(){
-        if(test_element=== "object" && test_element ===!null && test_element === function )
+        if(test_element === "object" && test_element =! null && test_element === function )
             return test_element;
         }
     },
@@ -57,15 +57,15 @@ DList DList(){
 //current node is always the node to deal with.
 Node insertNode = insert_begin_function(Node currentNode){
 //insert at the begining:
-    DList.head.previous=currentNode.next;
-    currentNode.previous =null;
+    DList.head.previous = currentNode.next;
+    currentNode.previous = null;
     Dlist.this.length = ++Dlist.this.length;
     return currentNode;
 };
 //insert at the end:
 Node insertNode = insert_end_function(Node currentNode){
-    DList.tail.next=currentNode.previous;
-    currentNode.previous=Dlist.tail.head;
+    DList.tail.next = currentNode.previous;
+    currentNode.previous = Dlist.tail.head;
     Dlist.this.length = ++Dlist.this.length;
     return currentNode;
 };
@@ -74,7 +74,7 @@ Node insertNode = insert_middle_function(Node currentNode){
     var position;
     if (Dlist.this.length > position) //position insert found;I beleve it
     {
-        Dlist.head.next=currentNode.previous;
+        Dlist.head.next = currentNode.previous;
         Dlist.tail.previous = currentNode.next;
         var position_found = position;
         console.log("display" + DList.currentNode.data);
@@ -87,7 +87,7 @@ var position;
     if (Dlist.this.length > position){
         var position_searched_found = position;
         Dlist.length =  position_searched_found; //stop at this posiotn;
-        Dlist.head.next=currentNode.previous;
+        Dlist.head.next = currentNode.previous;
         currentNode.next= Dlist.tail.head;
         console.log("display" + DList.currentNode.data);
 }
@@ -97,15 +97,15 @@ Node toDeleteNode = delete_node_function(Node currentNode){
 var position;
     if (Dlist.this.length > position){
         var position_searched_found = position;
-        Node beforenodeToDelete=currentNode.previous;
+        Node beforenodeToDelete = currentNode.previous;
         Node afternodeToDelete = currentNode.next;
-        Node deleteNode=currentNode;
+        Node deleteNode = currentNode;
         //thenconec the before  and after nodes
         beforenodeToDelete= afternodeTodelete.previous;
         afternodeToDelete = beforenodeToDelete.next;
         deleteNode.data = null;
-        delete Node.previous =null;
-        deleteNode.next=null;
+        delete Node.previous = null;
+        deleteNode.next = null;
 
         return deleteNode;
 },
@@ -113,16 +113,16 @@ var position;
         var position_searched_found = position;
 
         Dlist.tail.next = currentNode.previous;
-        curretnNode.next=null;
+        curretnNode.next = null;
         Node deleteNode=currentNode;
         deleteNode.data = null;
-        delete Node.previous =null;
-        deleteNode.next=null; linkedi list
+        delete Node.previous = null;
+        deleteNode.next=null; //linked list
         },
 
-if (position == 0){  //delete at the begining.
+if (position === 0){  //delete at the begining.
         var position_searched_found = position;
-        currentNode.previous =null;
+        currentNode.previous = null;
         Dlist.head.previous=currentNode.next;
         Node deleteNode=currentNode;
         deleteNode.data = null;
@@ -197,7 +197,7 @@ currentNode.next=null;
 SingelyList.next=currentNode;
 deleteNode=currentNode;
 deleteNode.data=null;
-deleteNode;next=null;
+deleteNode.next=null;
 
 //delete at the front.(can be , is a data match or if not logic.
 currentNode.next=null;
