@@ -100,7 +100,7 @@ var position;
         Node beforenodeToDelete = currentNode.previous;
         Node afternodeToDelete = currentNode.next;
         Node deleteNode = currentNode;
-        //thenconec the before  and after nodes
+        //then connect the before  and after nodes
         beforenodeToDelete= afternodeTodelete.previous;
         afternodeToDelete = beforenodeToDelete.next;
         deleteNode.data = null;
@@ -158,7 +158,7 @@ Node RightChild(){
 //proprerties initialization;
 },
 
-//Cross Check.....
+// review....
 
 /*
 * Singely linkeindlist
@@ -203,7 +203,7 @@ deleteNode.next=null;
 currentNode.next=null;
 currentNode.data = null;
 SingelyList =- SinglyList.next;
-//check***
+//review***
 }
 callback(currentNode, Singlylist, DblyLsit);
 ]
