@@ -93,8 +93,11 @@ var position;
         console.log("display" + DList.currentNode.data);
 }
 },
-Node toDeleteNode = delete_node_function(Node currentNode){
+Node toDeleteNode = delete_node_function(Node currentNode){ 
+// if a reference node is passed or 
+//delete 11 th note positon = 10(str at 0)
 //delete in the middle:
+
 var position;
     if (Dlist.this.length > position){
         var position_searched_found = position;
