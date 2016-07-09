@@ -1,0 +1,209 @@
+/*
+TestBed..
+
+Work In ... Progress.....
+Created byby :
+
+Aerovition Digital Inc.
+,An Aerovition Company
+Copyright 2016
+Date: 7/8/2016
+*/
+var test_element;
+
+var find_sample = function (test_element){
+    try{
+        a_sed_function1 : function(){
+        if(test_element=== "object" && test_element ===!null && test_element === function )
+            return test_element;
+        }
+    },
+    Catch(err){
+        a_sed_function2 : function(){
+            return throw exception ( "test" + err);
+    },
+    return{
+           a_sed_function1:a_sed_function1;
+          //or a sec. one.  a_sed_function1:a_sed_function2;
+    };
+
+
+};
+
+--------------------------------------------------------------------------------------------
+
+var Node(
+    previosu;
+    next;
+    data;
+);
+Node node()(
+    this.previous =null;
+    this.next= null;
+    this.data =[];
+};
+DList var(
+    head;
+    tail;
+    lenght;);
+
+DList DList(){
+    this.head =nul;
+    this.tail=null;
+    this.lenght=0;
+};
+//var Node nodeObjectFunction = node_object_collections(Node, SinglyList, Dlist, callback)[{
+//insert
+//current node is always the node to deal with.
+Node insertNode = insert_begin_function(Node currentNode){
+//insert at the begining:
+    DList.head.previous=currentNode.next;
+    currentNode.previous =null;
+    Dlist.this.length = ++Dlist.this.length;
+    return currentNode;
+};
+//insert at the end:
+Node insertNode = insert_end_function(Node currentNode){
+    DList.tail.next=currentNode.previous;
+    currentNode.previous=Dlist.tail.head;
+    Dlist.this.length = ++Dlist.this.length;
+    return currentNode;
+};
+//insert in the middle:
+Node insertNode = insert_middle_function(Node currentNode){
+    var position;
+    if (Dlist.this.length > position) //position insert found;I beleve it
+    {
+        Dlist.head.next=currentNode.previous;
+        Dlist.tail.previous = currentNode.next;
+        var position_found = position;
+        console.log("display" + DList.currentNode.data);
+    }
+    return currentNode;
+}
+Node searchNode = search_position_function(Node currentNode)  {
+//position locatiion:
+var position;
+    if (Dlist.this.length > position){
+        var position_searched_found = position;
+        Dlist.length =  position_searched_found; //stop at this posiotn;
+        Dlist.head.next=currentNode.previous;
+        currentNode.next= Dlist.tail.head;
+        console.log("display" + DList.currentNode.data);
+}
+},
+Node toDeleteNode = delete_node_function(Node currentNode){
+//delete in the middle:
+var position;
+    if (Dlist.this.length > position){
+        var position_searched_found = position;
+        Node beforenodeToDelete=currentNode.previous;
+        Node afternodeToDelete = currentNode.next;
+        Node deleteNode=currentNode;
+        //thenconec the before  and after nodes
+        beforenodeToDelete= afternodeTodelete.previous;
+        afternodeToDelete = beforenodeToDelete.next;
+        deleteNode.data = null;
+        delete Node.previous =null;
+        deleteNode.next=null;
+
+        return deleteNode;
+},
+ if (Dlist.this.length < position){  //delete at the end.
+        var position_searched_found = position;
+
+        Dlist.tail.next = currentNode.previous;
+        curretnNode.next=null;
+        Node deleteNode=currentNode;
+        deleteNode.data = null;
+        delete Node.previous =null;
+        deleteNode.next=null; linkedi list
+        },
+
+if (position == 0){  //delete at the begining.
+        var position_searched_found = position;
+        currentNode.previous =null;
+        Dlist.head.previous=currentNode.next;
+        Node deleteNode=currentNode;
+        deleteNode.data = null;
+        delete Node.previous =null;
+        deleteNode.next=null;
+        }},
+
+var Btree(
+         Node LeftChild;
+         Node RightChild;
+         var count_child_left;
+         var count_child_right;
+         Btree left_node_ptr;
+         Btree right_node_ptr;
+  ),
+Node LeftChild{
+
+ },
+NodeRightChild{
+
+},
+
+//constructors;
+
+Btree btree(){
+//properties initialization;
+},
+Node LeftChild(){
+//two different properties initialization;
+},
+
+Node RightChild(){
+//proprerties initialization;
+},
+
+//Cross Check.....
+
+/*
+* Singely linkeindlist
+*/
+
+var SinglyList(
+    var data; //1,2, 3 data fileds.
+    var next_link;
+),
+SinglyList singlylist(){
+    data = [];
+    next_link=null; //first node.
+
+},
+//Node currentNode;
+//insert: currentNode.next_link= singleyList;
+//SingelyList = Singelylist.next //advances.
+
+//insert at the end
+SingelyList.next = currentNode;
+//if middle : what data location, currentNode.data <> SingleyList.data :test then insert;
+//or search anywhere in the list.
+
+//Delete:
+//if middle : what data location, currentNode.data <> SingleyList.data :test then insert;
+
+currentNode.next = null;
+Node deleteNode;
+deleteNode.data = currentNode.data
+deleteNode = currentNode;
+SingelyList =- SinglyList.next;
+
+//if delete at the end:
+
+currentNode.next=null;
+SingelyList.next=currentNode;
+deleteNode=currentNode;
+deleteNode.data=null;
+deleteNode;next=null;
+
+//delete at the front.(can be , is a data match or if not logic.
+currentNode.next=null;
+currentNode.data = null;
+SingelyList =- SinglyList.next;
+//check***
+}
+callback(currentNode, Singlylist, DblyLsit);
+]
