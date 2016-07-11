@@ -13,6 +13,7 @@ Copyright 2016
 Date: 7/8/2016
 
 Application of,  visjs in angularjs
+<vis-network data="data" options="options"></vis-network>
 
 */
 //Define var Node , node is an Obj of VirSataSet of visjs definition of Node.
