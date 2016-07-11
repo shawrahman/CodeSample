@@ -13,7 +13,8 @@ Aerovition Digital Inc.
 Copyright 2016
 Date: 7/8/2016
 
-Complex Network Systems.
+Complex Network Systems. or Graph Theory, Daisy Chain 
+(circualr or imcomplete circles of connected devices / wire, LSSI-SOS-MDA(node))
 Application of Algorithms - basics in Network Graph -defintion.. 
 Maximum Number of relationship between only adjacent specific  2 nodes: 2! = 2 (permutated)
 Minimum number of Relationship between 2 nodes = 2C1 = 1
