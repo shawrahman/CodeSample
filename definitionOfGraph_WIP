@@ -17,6 +17,7 @@ Application of Algoriths -basics in Network Graph -defintion..
 Application of,  visjs in angularjs
 <vis-network data="data" options="options"></vis-network>
 alter VisDataSet to create custoem set using "let" defined properties.
+Javascript 1.7 uses "let " along with "var" 
 */
 //Define var Node , node is an Obj of VirSataSet of visjs definition of Node.
 //Definitoin: Subscriber & subscriberid fields. subscriber 
@@ -543,3 +544,4 @@ at least already viewed.
 see:
 https://medium.com/@keithwhor/using-graph-theory-to-build-a-simple-recommendation-engine-in-javascript-ec43394b35a3#.mr2xftppb
 https://docs.angularjs.org/guide/concepts
+https://github.com/keithwhor/UnitGraph
