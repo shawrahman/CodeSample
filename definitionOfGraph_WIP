@@ -49,7 +49,9 @@ $scope.data = {
 };
 
 
-/raw code-
+/
+*Data Vlues..can be loaded..test.data
+*raw code-
 *
 *
 */
