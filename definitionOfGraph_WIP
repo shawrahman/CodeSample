@@ -37,8 +37,8 @@ var nodes = VisDataSet([
 //edge is "let"
 //let has -2 way relationsip and the lenght of the relationship
 
-var edges = VisDataSet([     //let definition across graph object/nodes to est.relationship -here let is edge,let can be def to be  abstract def of a perosn , 
-                             // relationsip with properties in it  and said to be let joe = Json data record 
+var edges = VisDataSet([     //let definition across graph object/nodes to est.relationship -, , 
+                             // relationsip with properties in it  
   {from: 1, to: 3},
   {from: 1, to: 2},
   {from: 2, to: 4},
