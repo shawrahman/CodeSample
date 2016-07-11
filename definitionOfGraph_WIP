@@ -14,7 +14,9 @@ Copyright 2016
 Date: 7/8/2016
 
 Complex Network Systems.
-Application of Algorithms - basics in Network Graph -defintion..
+Application of Algorithms - basics in Network Graph -defintion.. 
+Maximum Number of relationship between only  2 nodes: 2! = 2 (permutated)
+Minimum number of Relationship between 2 nodes = 2C1 = 1
 Application of,  visjs in angularjs
 <vis-network data="data" options="options"></vis-network>
 alter VisDataSet to create custoem set using "let" defined properties.
