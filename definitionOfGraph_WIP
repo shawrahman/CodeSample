@@ -22,7 +22,7 @@ Application of,  visjs in angularjs
 //request record has many fileds
 
 var nodes = VisDataSet([
-  {subscriberid: 1, label: 'firstNode Of Data Record 1'},      //subscriberid values= new Date() or obtainted fomr json request.
+  {subscriberid: 1, label: 'firstNode Of Data Record 1'},      //subscriberid values= new Date() or obtainted from json request.
   {subscriberid: 2, label: 'SecondNode Of Data Record 2'},
   {subscriberid: 3, label: 'ThridNode Of Data Record 3'},
   {subscriberid: 4, label: 'FourthNode Of Data Record 4'},
