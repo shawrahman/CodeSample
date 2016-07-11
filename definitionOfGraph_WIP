@@ -539,7 +539,7 @@ A distance of at least 3 guarantees we’ll only
 be recommending listings to users that they’ve 
 at least already viewed.
 *
-*/
-
-
-
+*
+see:
+https://medium.com/@keithwhor/using-graph-theory-to-build-a-simple-recommendation-engine-in-javascript-ec43394b35a3#.mr2xftppb
+https://docs.angularjs.org/guide/concepts
