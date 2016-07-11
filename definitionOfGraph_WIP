@@ -34,8 +34,7 @@ var nodes = VisDataSet([
 
 //Definitoin: subscriber bi diretional relationship and lenght of relationship 
 //Definitoin:edges -bidirectional relationship and lenght of relationship
-//edge is "let"
-//let has -2 way relationsip and the lenght of the relationship
+//relationsip and the lenght of the relationship
 
 var edges = VisDataSet([     //let definition across graph object/nodes to est.relationship -, , 
                              // relationsip with properties in it  
