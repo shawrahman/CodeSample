@@ -102,7 +102,10 @@ likes.output = minecraft;
 minecraft.input.push(likes);
 
 /*
-Datastructure definition of "-link"
+*Datastructure definition of "-link"
+*NETWORK GRAPH DEFINITION & LOGIC
+*angularJS, MIT lisneced.
+*Subject to change and modification
 */
 class Unit {
 
