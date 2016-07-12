@@ -3,30 +3,53 @@
 TestBed..
 Logic Review...
 ***Application of Anjularjs in Graph Theory*** 
-Work In ... Progress.....STUDENT  / MENTORING DRAFT
+Work In ... Progress....
+/ STUDENT  / MENTORING DRAFT
 For Online class room ?Mentoring..in JAD..sessions..
 Studnets Tutorial..
 Created by :
-
+*/
+***********************
 Aerovition Digital Inc.
 ,An Aerovition Company
-Copyright 2016
+Copyright© 2016
 Date: 7/8/2016
+Copyright 2016.
+***********************
+-----------------------------------------------------------------------------------------
 
-Complex Network Systems. or Graph Theory, Daisy Chain 
-(circualr or imcomplete circles of connected devices / wire, LSSI-SOS-MDA(node))
+Application Domain: 
+===================
+1. Complex Network Systems. or 
+2. Graph Theory, 
+3. Daisy Chain ,
+4. (circualr or imcomplete circles of:
+5. interconnected / connected devices / 
+6. wire granula modules, 
+7. singals, 
+8.singnal pathways, 
+9. Disease Patheway , 
+10.Drug Patheways,
+11.LSSI-SOS-MDA(node))
+
+-------------------------------------------------------------------------------------------
 Application of Algorithms - basics in Network Graph -defintion.. 
+
 Maximum Number of relationship between only adjacent specific  2 nodes: 2! = 2 (permutated)
 Minimum number of Relationship between 2 nodes = 2C1 = 1
+------------------------------------------------------------------------------------------
 Application of,  visjs in angularjs
 <vis-network data="data" options="options"></vis-network>
-alter VisDataSet to create custoem set using "let" defined properties.
+Alter VisDataSet to create custoem set using "let" defined properties.
 Javascript 1.7 uses "let " along with "var" 
-*/
-//Define var Node , node is an Obj of VirSataSet of visjs definition of Node.
-//Definitoin: Subscriber & subscriberid fields. subscriber 
-//request record has many fileds
 
+Define var Node , node is an Obj of VirSataSet of visjs definition of Node.
+Definitoin: Subscriber & subscriberid fields. subscriber 
+request record has many fileds
+*/
+
+
+-------------------------------------------------------------------------------------------
 var nodes = VisDataSet([
   {subscriberid: 1, label: 'firstNode Of Data Record 1'},      //subscriberid values= new Date() or obtainted from json request.
   {subscriberid: 2, label: 'SecondNode Of Data Record 2'},
