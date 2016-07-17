@@ -9,6 +9,9 @@ Aerovition Digital Inc.
 ,An Aerovition Company
 Copyright 2016
 Date: 7/8/2016
+
+Note: Only AngularJs(MIT lisence) language itslef is used  
+no Google framework is applied
 */
 var test_element;
 
