@@ -10,6 +10,8 @@ Aerovition Digital Inc.
 ,An Aerovition Company
 Copyright 2016
 Date: 7/8/2016
+Note: Only AngularJs(MIT lisence) language itslef is used  
+no Google framework is applied
 
 https://github.com/keithwhor/UnitGraph
 https://medium.com/@keithwhor/using-graph-theory-to-build-a-simple-recommendation-engine-in-javascript-ec43394b35a3#.mr2xftppb
