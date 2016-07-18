@@ -12,6 +12,9 @@ Date: 7/8/2016
 
 Note: Only AngularJs(MIT lisence) language itslef is used  
 no Google framework is applied
+Partial work from public domain, willbe 
+altered to accommodate comcept furhter. Protected under 
+International Copyright law
 */
 var test_element;
 
