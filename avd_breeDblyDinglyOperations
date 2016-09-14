@@ -6,9 +6,12 @@ Date: 7/8/2016
 ---------------------------------------------------------------
 The following object oriented callback,"overloads 
 as OO function any data structure as domain onjects" 
-[in applica-tions of graph theory or , (Any)Tree(s)], 
-and performs search using algorithms(options:Machine Learning:
-Support Vector Machine, SNM), Restful API , Research Domain: 
+[for applications of graph theory or , (Any)Tree(s)], 
+and provides a learner, in supervised learning, a mechanism,
+to use  algorithms(options:Machine Learning:
+Support Vector Machine, SNM), to buold  Restful API / Callback 
+
+Research Domain: 
 1. Applied Artificial Intelligence, 
 2. Machime Learning.
 
