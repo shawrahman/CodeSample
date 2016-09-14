@@ -4,6 +4,16 @@ Aerovition Digital Inc.,An Aerovition Company
 International Copyright law @2016.
 Date: 7/8/2016
 Author: Shaw Rahman
+
+Research Domain: 
+1. Applied Artificial Intelligence, 
+2. Machime Learning.
+3. Two tree SVM
+4. supervised learning
+5. Model Driven system Of systems MDA_LSSI_SOS
+
+Wriiten in Angula Js (MEAN)/ any JS is ('use strict')applicable.
+
 --------------------------------------------------------------------------------------
 The following object oriented callback,"overloads 
 as OO function any data structure as domain onjects" 
@@ -27,14 +37,7 @@ the highest level of noded are undefined to briedge gaps , in cross domain /caus
 "casual gaps" to bridge gaps in complex system model, where the observations 
 input &  outputs domain objects form a symetric hierarchial structure.
 
-Research Domain: 
-1. Applied Artificial Intelligence, 
-2. Machime Learning.
-3. Two tree SVM
-4. supervised learning
-5. Model Driven system Of systems MDA_LSSI_SOS
 
-Wriiten in Angula Js (MEAN)/ any JS is ('use strict')applicable.
 ---------------------------------------------------------------------------------
 
 */
