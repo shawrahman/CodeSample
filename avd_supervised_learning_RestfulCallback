@@ -4,7 +4,7 @@ Aerovition Digital Inc.,An Aerovition Company
 International Copyright law @2016.
 Date: 7/8/2016
 Author: Shaw Rahman
-------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 The following object oriented callback,"overloads 
 as OO function any data structure as domain onjects" 
 [for applications of graph theory or , (Any)Tree(s)], 
@@ -30,7 +30,7 @@ Research Domain:
 5. Model Driven system Of systems MDA_LSSI_SOS
 
 Wriiten in Angula Js (MEAN)/ any JS is ('use strict')applicable.
------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 
 */
 var test_element;
