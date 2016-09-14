@@ -3,16 +3,18 @@ Created by :
 Aerovition Digital Inc.,An Aerovition Company
 International Copyright law @2016.
 Date: 7/8/2016
-----------------------------------------------------
+---------------------------------------------------------------
 The following object oriented callback,"overloads 
 as OO function any data structure as domain onjects" 
 [in applica-tions of graph theory or , (Any)Tree(s)], 
-and performs search usig algoriths(options:ML:SVN),
-Restful API , Research Domain: 
+and performs search usig algoriths(options:Machine Learning:
+Support Vector Machine, SNM), Restful API , Research Domain: 
 1. Applied Artificial Intelligence, 
 2. Machime Learning.
------------------------------------------------------
-Angula Js (MEAN)/ any JS is applicable.
+3. Applied Artificial Intelligence.
+wriiten in Angula Js (MEAN)/ any JS is ('use strict')applicable.
+----------------------------------------------------------------
+
 */
 var test_element;
 
