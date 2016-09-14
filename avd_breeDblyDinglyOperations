@@ -15,7 +15,7 @@ Support Vector Machine, SNM), to buold  Restful API / Callback
 Prerequisite:
 
 Input and output across domain or casual chain (begining and end)are 
-defeind observations. A latent variable ( product undefeind produced by another
+defined observations. A latent variable ( product undefeind produced by another
 domain in casual chain will result in a non supervised learning. 
 
 Research Domain: 
