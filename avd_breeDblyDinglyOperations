@@ -17,7 +17,10 @@ Prerequisite:
 Input and output across domain or casual chain (begining and end)are 
 defined observations. A latent variable ( product undefeind produced by 
 another domain , whcih are input to a subsequent domain LOB , in casual 
-chain will result in a non supervised learning. 
+chain will result in a non supervised learning. Cross domain observations 
+data quality or error can be resolved by introduction  of a second tree for 
+the first dynamically, and 3rd for the 2nd tree,  using two tree SVM for any
+"classifier /or non classsifier (value) regression analysis.
 
 Research Domain: 
 1. Applied Artificial Intelligence, 
