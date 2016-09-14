@@ -12,6 +12,11 @@ and provides a learner, in supervised learning, a mechanism,
 to "classfy", using  algorithms(options:Machine Learning:Classfication;
 Support Vector Machine, SNM), to buold  Restful API / Callback 
 
+Prerequisite:
+
+Input and output across domain or casual chain (begining and end)are 
+defeind observations.
+
 Research Domain: 
 1. Applied Artificial Intelligence, 
 2. Machime Learning.
