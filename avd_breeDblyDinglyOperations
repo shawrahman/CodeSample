@@ -3,20 +3,21 @@ Created by :
 Aerovition Digital Inc.,An Aerovition Company
 International Copyright law @2016.
 Date: 7/8/2016
----------------------------------------------------------------
+-----------------------------------------------------------------------
 The following object oriented callback,"overloads 
 as OO function any data structure as domain onjects" 
 [for applications of graph theory or , (Any)Tree(s)], 
 and provides a learner, in supervised learning, a mechanism,
-to use  algorithms(options:Machine Learning:
+to "classfy", using  algorithms(options:Machine Learning:Classfication;
 Support Vector Machine, SNM), to buold  Restful API / Callback 
 
 Research Domain: 
 1. Applied Artificial Intelligence, 
 2. Machime Learning.
-
+3. Two tree SVM
+4. supervised learning
 wriiten in Angula Js (MEAN)/ any JS is ('use strict')applicable.
-----------------------------------------------------------------
+-----------------------------------------------------------------------
 Author: Shaw Rahman
 */
 var test_element;
