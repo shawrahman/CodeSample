@@ -3,6 +3,7 @@ Created by :
 Aerovition Digital Inc.,An Aerovition Company
 International Copyright law @2016.
 Date: 7/8/2016
+Author: Shaw Rahman
 -----------------------------------------------------------------------
 The following object oriented callback,"overloads 
 as OO function any data structure as domain onjects" 
@@ -18,7 +19,7 @@ Research Domain:
 4. supervised learning
 wriiten in Angula Js (MEAN)/ any JS is ('use strict')applicable.
 -----------------------------------------------------------------------
-Author: Shaw Rahman
+
 */
 var test_element;
 
