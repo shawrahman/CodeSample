@@ -4,7 +4,7 @@ Aerovition Digital Inc.,An Aerovition Company
 International Copyright law @2016.
 Date: 7/8/2016
 Author: Shaw Rahman
------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 The following object oriented callback,"overloads 
 as OO function any data structure as domain onjects" 
 [for applications of graph theory or , (Any)Tree(s)], 
@@ -15,10 +15,10 @@ Support Vector Machine, SNM), to buold  Restful API / Callback
 Prerequisite:
 
 Input and output across domain or casual chain (begining and end)are 
-defined observations. A latent variable ( product undefeind produced by 
-another domain , whcih are input to a subsequent domain LOB , in casual 
-chain will result in a non supervised learning. Cross domain observations 
-data quality or error can be resolved by introduction  of a second tree for 
+defined observations. A latent variable ( product undefined, produced by 
+another domain , whcih are input to a subsequent domain in interconneted LOB , 
+in casual chain, will result in a non supervised learning. Cross domain observations 
+/ data quality or error can be resolved by introduction  of a second tree for 
 the first dynamically, and 3rd for the 2nd tree,  using two tree SVM for any
 "classifier /or non classsifier (value) regression analysis.
 
