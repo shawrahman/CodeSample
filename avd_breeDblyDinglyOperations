@@ -35,9 +35,10 @@ the first dynamically, and 3rd for the 2nd tree,  using two tree SVM for any
 "classifier /or non classsifier (value) regression analysis.
 
 A hierarchial symetric model  can be constructed dynamically if the latent variables, 
-the highest level of noded are undefined to bridge gaps (or introduce patterns) , in cross 
-domain /causal chain's; "casual gaps" to bridge gaps in complex system model, where the 
-observations input &  outputs domain objects form a symetric hierarchial structure.
+the highest level of noded are undefined to bridge gaps (or via  introduction of business 
+generic patterns) , in cross domain /causal chain's; "casual gaps" to bridge gaps in 
+complex system model, where the observations input &  outputs domain objects form a 
+symetric hierarchial structure.
 
 
 -------------------------------------------------------------------------------------------
