@@ -28,19 +28,27 @@ A Recommnedation system, in BigData.
 Prerequisite:
 Business Transformation
 ________________________________________________________________________________________
-Input and output across Business domains or in casual chain (where beginning and end)are 
+Input and output across Business domains or in casual chain (where beginning and end)are  
 defined observations. Latent variables ( product undefined, produced by  another domain , 
 which are input to a subsequent domain in interconnected LOB ,  in casual chain, will 
 result in a non supervised learning. Cross domain observations  / data quality or error 
-can be resolved by introduction  of a second tree for  the first dynamically, and 3rd 
-for the 2nd tree,  using two tree SVM for any "classifier /or non classifier (value) 
-regression analysis ,in Product definition/Definition of Product/System Specification 
-or Restful API. 
+can be resolved by introduction  of a second tree for  the first dynamically, and 3rd for 
+the 2nd tree,  using two tree SVM for any "classifier /or non classifier (value) regression 
+analysis ,in Product definition/Definition of Product/System Specification or Restful API. 
 A hierarchical geometric symmetric model  can be constructed dynamically if the latent 
-variables,  the highest level of nodes are undefined to bridge gaps (or via  introduction
+variables,  the highest level of nodes are undefined to bridge gaps (or via  introduction 
 of business  generic patterns) , for cross domain /causal chains' "casual gaps", to bridge 
 up gaps, in A Complex System Model (MDA_LSSI_SOS), where the observations' input &  output 
-dmain objects  form a symmetric hierarchical structure.
+domain objects  form a symmetric hierarchical structure.    ( Federated solution For Multi 
+Verticals: Healthcare, Medicine, Banking, Transportation, Education Research, Aerospace & 
+Defense, Government Administrative Departments : Interconnected Network Operations 
+Management in Casual Chains)
+
+Action chaining at point of concern, using such Restful APIs  by 
+provisioning  (JSR311) can optimally integrate Federated Cloud 
+Platforms across business theatres, within A single function 
+/ API call or callback.
+                                    ---  Chief Engineer. Architect. 
 -------------------------------------------------------------------------------------------
 
 */
