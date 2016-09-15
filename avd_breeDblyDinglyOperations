@@ -26,20 +26,20 @@ Support Vector Machine, SNM), to build  Restful API / Callback or to apply Restf
 A Recommnedation system, in BigData.
 
 Prerequisite:
-
-Input and output across domain or casual chain (begining and end)are 
-defined observations. A latent variable ( product undefined, produced by 
-another domain , whcih are input to a subsequent domain in interconneted LOB , 
-in casual chain, will result in a non supervised learning. Cross domain observations 
-/ data quality or error can be resolved by introduction  of a second tree for 
-the first dynamically, and 3rd for the 2nd tree,  using two tree SVM for any
-"classifier /or non classsifier (value) regression analysis.
-
-A hierarchial symetric model  can be constructed dynamically if the latent variables, 
-the highest level of noded are undefined to bridge gaps (or via  introduction of business 
-generic patterns) , in cross domain /causal chain's; "casual gaps" to bridge gaps in A
-Complex System Model (MDA_LSSI_SOS), where the observations input &  outputs domain objects 
-form a symetric hierarchial structure.
+Business Transformation
+________________________________________________________________________________________
+Input and output across domain or casual chain (where beginning and end)are  
+defined observations. A latent variable ( product undefined, produced by  
+another domain , which are input to a subsequent domain in interconnected LOB ,  
+in casual chain, will result in a non supervised learning. Cross domain observations  
+/ data quality or error can be resolved by introduction  of a second tree for  the 
+first dynamically, and 3rd for the 2nd tree,  using two tree SVM for any "classifier
+/or non classifier (value) regression analysis.A hierarchical symmetric model  can be 
+constructed dynamically if the latent variables,  the highest level of nodes are undefined 
+to bridge gaps (or via  introduction of business  generic patterns) , in cross domain 
+/causal chain's; "casual gaps" to bridge gaps in A Complex System Model (MDA_LSSI_SOS), 
+where the observations input &  outputs domain objects  from a symmetric hierarchical 
+structure.. 
 
 
 -------------------------------------------------------------------------------------------
