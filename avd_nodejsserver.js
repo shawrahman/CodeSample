@@ -1,5 +1,20 @@
+/* 
+2 Created by : 
+3 Aerovition Digital Inc.,An Aerovition Company 
+4 International Copyright law @2016. 
+5 Date: 7/8/2016 
+6 Author: Shaw Rahman 
+7 
+ 
+8 Research Domain:  
+9 1. Applied Artificial Intelligence,  
+10 2. Machime Learning. 
+11 3. Two tree SVM 
+12 4. supervised learning 
+13 5. Model Driven system Of systems MDA_LSSI_SOS 
+14 6. Recommendations systems in BigData 
 
-/*
+
 NodeJs server to obtain request  
 last,
 first, 
