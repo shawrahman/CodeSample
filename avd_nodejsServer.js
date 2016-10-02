@@ -25,6 +25,14 @@ dob
 to store in mondodb default schema.
 */
 
+/*
+NodeJs server to obtain request  
+last,
+first, 
+dob 
+to store in mondodb default schema.
+*/
+
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
@@ -51,8 +59,8 @@ var server = http.createServer(function onRequest(request, response) {
        if (fullPath == "/post") {
 		
 		var name = '';
-            	var lastname = '';
-            	var firstname = '';
+            	var name[0] = '';
+            	var name[1] = '';
 	    	var dob = '';
 
                 request.on('data', function(chunk) {
@@ -67,7 +75,9 @@ var server = http.createServer(function onRequest(request, response) {
                	db.testData.insert({	user:name,
 					user.lastname:name[0], 
 					user.firstname:name[1], 
-					user.dob:dob 				}, function(err, testData) {
+					user.dob:dob 				}, function(err, 
+
+testData) {
                    if( err || !testData) console.log("Unable to add New user");
                    });
                });
