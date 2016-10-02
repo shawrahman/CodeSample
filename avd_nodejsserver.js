@@ -56,7 +56,7 @@ var server = http.createServer(function onRequest(request, response) {
                 jsonUserObject = JSON.parse(chunk.toString());
 	       
 
-		name = jsonUserObject.name;
+		name = jsonUserObject.searchKeyword;
                	name[0] =  jsonUserObject.lastname;
 	       	name[1] = jsonUserObject.firstname;
 	       	dob = jsonUserObject.dob;
