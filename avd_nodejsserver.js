@@ -51,15 +51,17 @@ var server = http.createServer(function onRequest(request, response) {
             	var name[0] = '';
             	var name[1] = '';
 	    	var dob = '';
+	        var sname = '';
 
                 request.on('data', function(chunk) {
                 jsonUserObject = JSON.parse(chunk.toString());
 	       
 
-		name = jsonUserObject.searchKeyword;
+		name = jsonUserObject.name;
                	name[0] =  jsonUserObject.lastname;
 	       	name[1] = jsonUserObject.firstname;
 	       	dob = jsonUserObject.dob;
+		sname = jsonUserObject.searchKeyword;
 
                	db.testData.insert({	user:name,
 					user.lastname:name[0], 
