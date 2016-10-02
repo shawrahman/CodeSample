@@ -22,6 +22,14 @@ dob
 to store in mondodb default schema.
 */
 
+/*
+NodeJs server to obtain request  
+last,
+first, 
+dob 
+to store in mondodb default schema.
+*/
+
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
@@ -48,25 +56,25 @@ var server = http.createServer(function onRequest(request, response) {
        if (fullPath == "/post") {
 		
 		var name = '';
-            	var name[0] = '';
-            	var name[1] = '';
+            	var lname = '';
+            	var fname = '';
 	    	var dob = '';
-	        var sname = '';
+		var snamw = '';
 
                 request.on('data', function(chunk) {
                 jsonUserObject = JSON.parse(chunk.toString());
 	       
 
 		name = jsonUserObject.name;
-               	name[0] =  jsonUserObject.lastname;
-	       	name[1] = jsonUserObject.firstname;
+               	lname =  jsonUserObject.name[0];
+	       	fname = jsonUserObject.name[1];
 	       	dob = jsonUserObject.dob;
 		sname = jsonUserObject.searchKeyword;
 
                	db.testData.insert({	user:name,
-					user.lastname:name[0], 
-					user.firstname:name[1], 
-					user.dob:dob 				}, function(err, testData) {
+					user.lastname:lname, 
+					user.firstname:fname, 
+					user.dob:dob}, function(err, testData) {
                    if( err || !testData) console.log("Unable to add New user");
                    });
                });
