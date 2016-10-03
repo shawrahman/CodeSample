@@ -1,22 +1,10 @@
 /* 
-2 Created by : 
-3 Aerovition Digital Inc.,An Aerovition Company 
-4 International Copyright law @2016. 
-5 Date: 7/8/2016 
-6 Author: Shaw Rahman 
-7 
- 
+ Created by : 
+ Aerovition Digital Inc.,An Aerovition Company 
+ International Copyright law @2016. 
+ Date: 7/8/2016 
+ Author: Shaw Rahman 
 
-
-/*
-NodeJs server to obtain request  
-last,
-first, 
-dob 
-to store in mondodb default schema.
-*/
-
-/*
 NodeJs server to obtain request  
 last,
 first, 
