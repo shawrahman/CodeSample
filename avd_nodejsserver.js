@@ -1,6 +1,6 @@
 /* 
  Created by : 
- Aerovition Digital Inc.,An Aerovition Company 
+ Aerovition Digital Inc.,
  International Copyright law @2016. 
  Date: 7/8/2016 
  Author: Shaw Rahman 
