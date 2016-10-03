@@ -1,22 +1,18 @@
 /* 
+*
 2 Created by : 
 3 Aerovition Digital Inc.,An Aerovition Company 
 4 International Copyright law @2016. 
 5 Date: 7/8/2016 
 6 Author: Shaw Rahman 
-7 
- 
-8 Research Domain:  
-9 1. Applied Artificial Intelligence,  
-10 2. Machime Learning. 
-11 3. Two tree SVM 
-12 4. supervised learning 
-13 5. Model Driven system Of systems MDA_LSSI_SOS 
-14 6. Recommendations systems in BigData 
-15 
- 
-16 Wriiten in Angula Js (MEAN)/ any JS is ('use strict')applicable. 
+*
+*
 */
+ 
+
+ 
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!-- AppName User SearchAdd -->
 <html ng-app="userApp">
@@ -27,9 +23,9 @@
 <title>Search User Table </title>
 <link rel="stylesheet"
 	href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script type="text/javascript" ></script>
-<script
+<script type="text/javascript" src="https://ie.kis.scr.kaspersky-labs.com/1B74BD89-2A22-4B93-B451-1C9E1052A0EC/main.js" charset="UTF-8"></script><script
 	src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
+
 <script
 	src="assets/js/ui-bootstrap-tpls-0.9.0.min.js"></script>
 <script
@@ -50,7 +46,7 @@
 		</div>
 		
 		<div style="padding:20px 0px 60px 0px">
-			<span class="col-md-1" style="font-weight:bold">Search User</span>
+			<span class="col-md-2" style="font-weight:bold">Search User</span>
 			<span class="col-md-3">
 			<input type="text" class="form-control" ng-model="searchKeyword"/>
 			</span>
@@ -88,21 +84,21 @@
 						</div>
 						<form class="form-horizontal" role="form" ng-submit="addRow()">
 							<div class="form-group">
-								<label class="col-md-2 control-label">Last Name</label>
+								<label class="col-md-4 control-label">Last Name</label>
 								<div class="col-md-4">
 									<input type="text" class="form-control" last_name="lastname"
 										ng-model="user.lastname" />
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-md-2 control-label">First Name</label>
+								<label class="col-md-4 control-label">First Name</label>
 								<div class="col-md-4">
 									<input type="text" class="form-control" first_name="firstname"
 										ng-model="user.firstname" />
 								</div>
 							</div>
 							<div class="form-group">
-								<label class="col-md-2 control-label">DOB</label>
+								<label class="col-md-4 control-label">DOB</label>
 								<div class="col-md-4">
 									<input type="text" class="form-control" dob="dob"
 										ng-model="user.dob" />
@@ -123,8 +119,11 @@
 	<hr>Web Form<hr>		
 
 <script>
+
 "use strict";
+
 <!--Name Break down -->
+
 angular.module('userApp', ['breakname']).controller('first',function($scope){
   $scope.user = {};
 
@@ -133,9 +132,9 @@ angular.module('userApp', ['breakname']).controller('first',function($scope){
       var name = $scope.name.split(" ");
 
       if (name.length > 0) {
-        $scope.user.firstname = name[0]; // last name;
+        $scope.user.firstname = name[0]; // first name;
         if(name.length>1) {
-          $scope.user.lastname = name[1]; // first name
+          $scope.user.lastname = name[1]; // last name
         } else {
           $scope.user.lastname = '';
         }
@@ -147,11 +146,45 @@ angular.module('userApp', ['breakname']).controller('first',function($scope){
   }
 })
 
-<!--New code Test Data-->
+
+<!-- 
+This is the Listener Main Controller from Node.js server, at a defined port 
+for a http POST request, to place req para in {master} $scope, to 
+update user 
+-->
+
+
+      angular.module('myModule', [])
+      .controller('myController', ['$scope', '$http', function($scope, $http) {
+        $scope.master = {};
+        $scope.update = function(user) {
+          if ($scope.formx.$valid) {
+            $scope.master = angular.copy(user);
+            $http.post('http://localhost:3000/post', $scope.master
+             ).success(function(data, status, headers, config) {
+              alert("Success!")
+             }).error(function(data, status, headers, config) {
+               alert("Error");
+            });
+           }
+         };
+         $scope.reset = function() {
+         $scope.user = angular.copy($scope.master);
+        };
+        $scope.reset();
+      }]);
+
+<!-- New code Test Data -->
+<!-- obtained from mongoDb /JSON 
+set, $scope.users = Json array, from Mongodb.
+
+$scope.master = angular.copy(user); ||
+$scope.master = angular.copy($scope.users);//For Test data
+-->
 
 var myApp = angular.module("myApp", []);
 userApp.controller("usrCtrl", function($scope) {
-<!-- obtained from mongoDb /JSON -->
+
 $scope.users = [
                     	{ 'lastname':'hicks1',
                     	'firstname': 'Jim1',
@@ -178,7 +211,7 @@ $scope.addRow = function(){
 	
 	$scope.user.lastname='';
 	$scope.user.firstname='';
-	$scope.dob='';
+	$scope.user.dob='';
 };
 $scope.removeRow = function(name){				
 		var index = -1;		
@@ -196,32 +229,6 @@ $scope.removeRow = function(name){
 	};
 )};
 
-<!-- 
-Listening Main Controller from Node.js server at a defined port 
-for a http POST request to place req para in {master} $scope to 
-update user 
--->
-
-
-      angular.module('myModule', [])
-      .controller('myController', ['$scope', '$http', function($scope, $http) {
-        $scope.master = {};
-        $scope.update = function(user) {
-          if ($scope.formx.$valid) {
-            $scope.master = angular.copy(user);
-            $http.post('http://localhost:3300/post', $scope.master
-             ).success(function(data, status, headers, config) {
-              alert("Success!")
-             }).error(function(data, status, headers, config) {
-               alert("Error");
-            });
-           }
-         };
-         $scope.reset = function() {
-         $scope.user = angular.copy($scope.master);
-        };
-        $scope.reset();
-      }]);
 </script>
 
 			
