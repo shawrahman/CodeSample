@@ -6,15 +6,9 @@
 6 Author: Shaw Rahman 
 7 
  
-8 Research Domain:  
-9 1. Applied Artificial Intelligence,  
-10 2. Machime Learning. 
-11 3. Two tree SVM 
-12 4. supervised learning 
-13 5. Model Driven system Of systems MDA_LSSI_SOS 
-14 6. Recommendations systems in BigData 
 
 
+/*
 NodeJs server to obtain request  
 last,
 first, 
@@ -56,25 +50,43 @@ var server = http.createServer(function onRequest(request, response) {
        if (fullPath == "/post") {
 		
 		var name = '';
-            	var lname = '';
-            	var fname = '';
+            	var name[0] = '';
+            	var name[1] = '';
 	    	var dob = '';
-		var snamw = '';
+		var sname = ''; //search keyword
 
                 request.on('data', function(chunk) {
                 jsonUserObject = JSON.parse(chunk.toString());
 	       
 
 		name = jsonUserObject.name;
-               	lname =  jsonUserObject.name[0];
-	       	fname = jsonUserObject.name[1];
+
+		name = $scope.name.split(" ");
+
+		if (name.length > 0) {
+        			     $scope.user.firstname = name[0]; // first name;
+        		             if(name.length>1) {
+          				  		$scope.user.lastname = name[1]; // last name
+        				  		} 
+				     else 
+					  {
+          				   $scope.user.lastname = '';
+        				  }
+      				     }
+    		else 
+			{
+      			$scope.user.firstname = '';
+      			$scope.user.lastname = '';
+    			}
+
 	       	dob = jsonUserObject.dob;
 		sname = jsonUserObject.searchKeyword;
 
-               	db.testData.insert({	user:name,
-					user.lastname:lname, 
-					user.firstname:fname, 
-					user.dob:dob}, function(err, testData) {
+               	db.testData.insert({	user.name:name,
+					user.lastname:name[1], 
+					user.firstname:name[0], 
+					user.dob:dob,
+					user.searchkeyword: sname}, function(err, testData) {
                    if( err || !testData) console.log("Unable to add New user");
                    });
                });
