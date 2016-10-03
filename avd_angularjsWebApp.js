@@ -1,7 +1,7 @@
 /* 
 *
 2 Created by : 
-3 Aerovition Digital Inc.,An Aerovition Company 
+3 Aerovition Digital Inc.
 4 International Copyright law @2016. 
 5 Date: 7/8/2016 
 6 Author: Shaw Rahman 
