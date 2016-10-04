@@ -1,12 +1,21 @@
 /* 
 *
-2 Created by : 
-3 Aerovition Digital Inc.
-4 International Copyright law @2016. 
-5 Date: 7/8/2016 
-6 Author: Shaw Rahman 
+ Created by : 
+ Aerovition Digital Inc.
+ International Copyright law @2016. 
+ Date: 7/8/2016 
+ Author: Shaw Rahman 
 *
-*
+*Application: 
+User Registration , 
+Common Resftul Gateway Interfce ,
+*B2B, B2C,
+*POS transaction, 
+*Product Search Engine, 
+*MEAN Stac/ NoSql
+*API invokcation from 
+Mobile Multi Channel Interface
+*Retail Commerce
 */
  
 
