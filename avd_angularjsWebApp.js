@@ -6,7 +6,7 @@
  Date: 7/8/2016 
  Author: Shaw Rahman 
 *
-*Applicabel Domain: 
+*Applicable Domain: 
 *
 *User Registration , 
 *Common Resftul Gateway Interfce : @ B2B, B2C,
