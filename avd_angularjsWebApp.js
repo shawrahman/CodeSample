@@ -6,10 +6,10 @@
  Date: 7/8/2016 
  Author: Shaw Rahman 
 *
-*Application: 
-User Registration , 
-Common Resftul Gateway Interfce ,
-*B2B, B2C,
+*Applicabel Domain: 
+*
+*User Registration , 
+*Common Resftul Gateway Interfce : @ B2B, B2C,
 *POS transaction, 
 *Product Search Engine, 
 *MEAN Stac/ NoSql
