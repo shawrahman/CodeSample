@@ -14,8 +14,10 @@ Common Resftul Gateway Interfce ,
 *Product Search Engine, 
 *MEAN Stac/ NoSql
 *API invokcation from 
-Mobile Multi Channel Interface
-*Retail Commerce
+*Mobile Multi Channel Interface
+*Retail Commerce B2C
+*PRODUCT INFORMATION SYSTEMS
+*DIGITLA ECOMMERCE
 */
  
 
