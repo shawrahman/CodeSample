@@ -6,9 +6,9 @@
  Author: Shaw Rahman 
 
 NodeJs server to obtain request  
-last,
-first, 
-dob 
+Common Gateway Restful Interface
+To accept any request 
+
 to store in mondodb default schema.
 */
 
