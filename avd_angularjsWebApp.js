@@ -17,7 +17,7 @@
 *Mobile Multi Channel Interface
 *Retail Commerce B2C
 *PRODUCT INFORMATION SYSTEMS
-*DIGITLA ECOMMERCE
+*DIGITAL ECOMMERCE
 *RECOMMENDATION SYSTEMS
 *RISK Analytics
 __________________________________________________________________________________________________________________________________________
