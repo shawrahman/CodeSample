@@ -16,10 +16,10 @@
 *API invokcation from 
 *Mobile Multi Channel Interface
 *Retail Commerce B2C
+
+*DIGITAL E-COMMERCE SML MARSHALL-JSON STREAMING
+*RECOMMENDATION SYSTEMS:FRAUD , RISK ANALYTICS
 *REAL-TIME ONLINE PRODUCT-SERVICE ORDER MANAGEMENT SYSTEMS FOR PARTNERS, RESEALLER, DISTRIBUTERS 
-*DIGITAL ECOMMERCE
-*RECOMMENDATION SYSTEMS
-*RISK Analytics
 __________________________________________________________________________________________________________________________________________
 */
  
