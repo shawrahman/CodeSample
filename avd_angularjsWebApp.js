@@ -12,7 +12,7 @@
 *Common Resftul Gateway Interfce : @ B2B, B2C,
 *POS transaction, 
 *Product Search Engine, 
-*MEAN Stac/ NoSql
+*MEAN Stack/ NoSql
 *API invokcation from 
 *Mobile Multi Channel Interface
 *Retail Commerce B2C
