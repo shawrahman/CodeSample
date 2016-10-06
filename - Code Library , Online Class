@@ -11,7 +11,7 @@ https://medium.com/@keithwhor/using-graph-theory-to-build-a-simple-recommendatio
 https://docs.angularjs.org/guide/concepts
 http://plnkr.co/edit/zy1C2z39dXuuHDx8eqxK?p=preview
 
-==================================================================================================================================
+===============================sharing scope data between controllers============================================================
 <!doctype html>
 <html ng-app="project">
 <head>
