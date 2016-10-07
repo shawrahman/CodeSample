@@ -7,22 +7,19 @@ Author: Shaw Rahman
 
 Research Domain: 
 1. Applied Artificial Intelligence, 
-2. Machime Learning.
+2. Machine Learning.
 3. Two tree SVM
 4. supervised learning
 5. Model Driven system Of systems MDA_LSSI_SOS
 6. Recommendations systems in BigData
 
-Wriiten in Angula Js (MEAN)/ any JS is ('use strict')applicable.
+Written in Angula Js (MEAN)/ any JS is ('use strict')applicable.
 
 -----------------------------------------------------------------------------------------
-The following object oriented callback,"overloads 
-as OO function any data structure as domain onjects" 
-[for applications of graph theory or , (Any)Tree(s)], 
-and provides a learner, in supervised learning, a mechanism,
-to "classfy", using  algorithms(options:Machine Learning:Classfication;
-Support Vector Machine, SNM), to build  Restful API / Callback or to apply RestfulAPI in 
-A Recommnedation system, in BigData.
+The following object oriented callback,"overloads as OO function any data structure as domain onjects" 
+[for applications of graph theory or , (Any)Tree(s)], and provides a learner, in supervised learning, a mechanism,
+to "classify", using  algorithms(options:Machine Learning:Classification; Support Vector Machine, SNM), to 
+build  Restful API / Callback or to apply RestfulAPI in A Recommendation System, in BigData.
 
 Prerequisite:
 
