@@ -7,7 +7,7 @@
 
 NodeJs server to obtain request  
 Common Gateway Restful Interface
-To accept any request 
+To accept any Request/Resp for the mime types.
 
 to store in mondodb default schema.
 *RISK Analytics 
